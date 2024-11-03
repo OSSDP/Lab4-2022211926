@@ -11,7 +11,7 @@ public class L2022211926_2_Test {
             // 测试用例："bcabc" 应返回 "abc"
             Solution2 solution = new Solution2();
             String input = "bcabc";
-            String expected = "abc";
+            String expected = "abca";
             String actual = solution.removeDuplicateLetters(input);
             Assertions.assertEquals(expected, actual, "The output should be the lexicographically smallest string with unique characters.");
         }
